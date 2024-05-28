@@ -96,6 +96,36 @@ namespace CalculadoraWeb
 		//	return lista;
 		//}
 
+		public List<SimulacaoParcela> CalcularSimulacaoDeFinanciamentos(decimal valorFinanciamento, decimal taxa, int parcelas, DateTime database)
+		{
+			var lista = new List<SimulacaoParcela>();
+			var vencimento = database;
+
+			for (int parcela = 0; parcela < parcelas; parcela++)
+			{
+
+				var meses = parcela + 1;
+				var valorTotal = CalcularValorMontanteComJurosCompostos(valorFinanciamento, taxa, meses);
+				var valorParcela = Math.Round(valorTotal / meses, decimals: 2);
+				var totalDeJuros = (valorParcela * meses) - valorFinanciamento;
+
+				vencimento = vencimento.AddDays(30);
+
+				var financiamento = new SimulacaoParcela(meses, valorParcela, totalDeJuros, vencimento);
+
+				lista.Add(financiamento);
+			}
+			return lista;
+		}
+
+
+
+		public List<SimulacaoParcela> CalcularSimulacaoDeFinanciamentos(decimal valorFinanciamento, decimal taxa, int parcelas)
+		{
+
+			return CalcularSimulacaoDeFinanciamentos(valorFinanciamento, taxa, parcelas, DateTime.Now.Date);
+		}
+
 
 	}
 }

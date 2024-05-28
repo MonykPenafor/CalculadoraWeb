@@ -11,43 +11,61 @@ namespace CalculadoraWeb
 {
 
 
-	public partial class About
+	public partial class CalculadoraFibonacci
 	{
 
 		/// <summary>
-		/// pnlFibonacci control.
+		/// txt1 control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlFibonacci;
+		protected global::System.Web.UI.WebControls.TextBox txt1;
 
 		/// <summary>
-		/// FibonacciCalc control.
+		/// TextoModificado control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraFibonacci FibonacciCalc;
+		protected global::System.Web.UI.WebControls.Label TextoModificado;
 
 		/// <summary>
-		/// pnlJurosComposto control.
+		/// lblVisitas control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlJurosComposto;
+		protected global::System.Web.UI.WebControls.Label lblVisitas;
 
 		/// <summary>
-		/// JurosCalc control.
+		/// lblAlteracoes control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraDeJuros JurosCalc;
+		protected global::System.Web.UI.WebControls.Label lblAlteracoes;
+
+		/// <summary>
+		/// btn1 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btn1;
+
+		/// <summary>
+		/// lbl1 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Label lbl1;
 	}
 }
