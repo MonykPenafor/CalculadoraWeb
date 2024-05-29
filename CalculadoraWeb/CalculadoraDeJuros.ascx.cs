@@ -33,35 +33,6 @@ namespace CalculadoraWeb
 		}
 
 
-		protected void btnSimularFinanciamento_click(object sender, EventArgs e)
-		{
-			var calculadora = new Calculadora();
-
-			if (decimal.TryParse(txtValorFinanciamento.Text, out decimal valor))
-			{
-				if (decimal.TryParse(txtValorTaxa.Text, out decimal taxa))
-				{
-					if (Int32.TryParse(txtQuantidadeDeParcelas.Text, out int parcelas))
-					{
-						var simulacao = calculadora.CalcularSimulacaoDeFinanciamentos(valor, taxa, parcelas, database: DateTime.Now.Date);
-
-						lblMensagem.Text = "Financiamento calculado com sucesso!";
-
-					}
-					else
-					{
-						lblMensagem.Text = "Informe uma quantidade valida";
-					}
-				}
-				else
-				{
-					lblMensagem.Text = "Informe uma taxa valida";
-				}
-			}
-			else
-			{
-				lblMensagem.Text = "Informe um Valor de Financiamento valido";
-			}
-		}
+	
 	}
 }

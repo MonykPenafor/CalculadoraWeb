@@ -11,79 +11,61 @@ namespace CalculadoraWeb
 {
 
 
-	public partial class About
+	public partial class CalculadoraSimulacaoFinanciamento
 	{
 
 		/// <summary>
-		/// pnlFibonacci control.
+		/// txtValorFinanciamento control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlFibonacci;
+		protected global::System.Web.UI.WebControls.TextBox txtValorFinanciamento;
 
 		/// <summary>
-		/// FibonacciCalc control.
+		/// txtValorTaxa control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraFibonacci FibonacciCalc;
+		protected global::System.Web.UI.WebControls.TextBox txtValorTaxa;
 
 		/// <summary>
-		/// pnlJurosComposto control.
+		/// txtQuantidadeDeParcelas control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlJurosComposto;
+		protected global::System.Web.UI.WebControls.TextBox txtQuantidadeDeParcelas;
 
 		/// <summary>
-		/// JurosCalc control.
+		/// btnSimularFinanciamento control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraDeJuros JurosCalc;
+		protected global::System.Web.UI.WebControls.Button btnSimularFinanciamento;
 
 		/// <summary>
-		/// pnlSimulacaoDeFinanciamento control.
+		/// lblMensagem control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlSimulacaoDeFinanciamento;
+		protected global::System.Web.UI.WebControls.Label lblMensagem;
 
 		/// <summary>
-		/// FinanciamentoCalc control.
+		/// lblResultado control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::CalculadoraWeb.CalculadoraSimulacaoFinanciamento FinanciamentoCalc;
-
-		/// <summary>
-		/// pnlGeradorDeNomes control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::System.Web.UI.WebControls.Panel pnlGeradorDeNomes;
-
-		/// <summary>
-		/// GeradorNomes control.
-		/// </summary>
-		/// <remarks>
-		/// Auto-generated field.
-		/// To modify move field declaration from designer file to code-behind file.
-		/// </remarks>
-		protected global::CalculadoraWeb.GeradorDeNomes GeradorNomes;
+		protected global::System.Web.UI.WebControls.Label lblResultado;
 	}
 }
