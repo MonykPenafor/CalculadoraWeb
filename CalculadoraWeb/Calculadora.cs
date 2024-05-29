@@ -21,7 +21,6 @@ namespace CalculadoraWeb
 		}
 
 
-
 		public bool EhPar(int numero)
 		{
 			if (numero % 2 == 0)
@@ -29,12 +28,14 @@ namespace CalculadoraWeb
 			return false;
 		}
 
+
 		public decimal CalcularTotalJurosSimples(decimal valorDaParcela, decimal taxa)
 		{
 			decimal total = valorDaParcela * taxa/100;
 			return total;
 
 		}
+
 
 		public int CalcularMaximoDivisorComum(int[] numeros)
 		{
@@ -58,6 +59,7 @@ namespace CalculadoraWeb
 			return mdc;
 		}
 
+
 		private int ConsultarMaiorNumeroExistente(int[] numeros)
 		{
 			var maior = numeros[0];
@@ -71,6 +73,7 @@ namespace CalculadoraWeb
 			return maior;
 		}
 
+
 		public decimal CalcularValorMontanteComJurosCompostos(decimal parcela, decimal taxa, int meses)
 		{
 			//M = C * (1 + i)^t
@@ -81,20 +84,6 @@ namespace CalculadoraWeb
 
 		}
 
-		//public List<SimulacaoParcela> CalcularSimulacaoDeFinanciamentos(decimal valorFinanciamento, decimal taxa, int parcelas)
-		//{
-		//	var lista = new List<SimulacaoParcela>();
-
-		//	for (int parcela = 0; parcela < parcelas; parcela++) 
-		//	{
-		//		var meses = parcela + 1;
-		//		var valorTotal = CalcularValorMontanteComJurosCompostos(valorFinanciamento, taxa, meses);
-		//		var financiamento = new SimulacaoParcela(meses, valorTotal);
-
-		//		lista.Add(financiamento);
-		//	}
-		//	return lista;
-		//}
 
 		public List<SimulacaoParcela> CalcularSimulacaoDeFinanciamentos(decimal valorFinanciamento, decimal taxa, int parcelas, DateTime database)
 		{
@@ -117,7 +106,6 @@ namespace CalculadoraWeb
 			}
 			return lista;
 		}
-
 
 
 		public List<SimulacaoParcela> CalcularSimulacaoDeFinanciamentos(decimal valorFinanciamento, decimal taxa, int parcelas)

@@ -1,6 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CalculadoraFibonacci.ascx.cs" Inherits="CalculadoraWeb.CalculadoraFibonacci" %>
 
-<h1>CALCULADORA FIBONACCI</h1>
+<h2>CALCULADORA FIBONACCI</h2>
 
     Informe a quantidade de numeros Fibonacci a serem calculados:<asp:TextBox ID="txt1" runat="server" Text="10" OnTextChanged="txt1_TextChanged"></asp:TextBox>
     <asp:Label ID="TextoModificado" Text="Valor Original" runat="server"></asp:Label>

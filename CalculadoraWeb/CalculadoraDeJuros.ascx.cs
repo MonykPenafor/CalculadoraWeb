@@ -33,7 +33,7 @@ namespace CalculadoraWeb
 		}
 
 
-		protected void btnSimularFinanciamento_click()
+		protected void btnSimularFinanciamento_click(object sender, EventArgs e)
 		{
 			var calculadora = new Calculadora();
 
@@ -43,13 +43,9 @@ namespace CalculadoraWeb
 				{
 					if (Int32.TryParse(txtQuantidadeDeParcelas.Text, out int parcelas))
 					{
-
 						var simulacao = calculadora.CalcularSimulacaoDeFinanciamentos(valor, taxa, parcelas, database: DateTime.Now.Date);
 
-
 						lblMensagem.Text = "Financiamento calculado com sucesso!";
-
-
 
 					}
 					else
