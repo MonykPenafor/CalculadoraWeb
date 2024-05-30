@@ -1,14 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="GeradorDeNomes.ascx.cs" Inherits="CalculadoraWeb.GeradorDeNomes" %>
 
-
-<script>
-
-
-
-
-</script>
-
-
 <h2>GERADOR DE NOMES</h2>
 
 Informe um nome para ser adicionado:<asp:TextBox ID="txtNome" runat="server"></asp:TextBox>
@@ -29,16 +20,24 @@ Informe um nome para ser adicionado:<asp:TextBox ID="txtNome" runat="server"></a
 
     <ItemTemplate>
         <tr>
-            <td><a href="#" onclick="alert('<%#Container.DataItem%>')"><%#Container.DataItem%></a></td>
+            <td><a href="#" onclick="alertInvertido('<%#Container.DataItem%>')"><%#Container.DataItem%></a></td>
         </tr>
     </ItemTemplate>
 
     <AlternatingItemTemplate>
         <tr style="background-color: #ccc">
-            <td><a href="#" onclick="alert('<%#Container.DataItem%>')"><%#Container.DataItem%></a></td>
+            <td><a href="#" onclick="alertInvertido('<%#Container.DataItem%>')"><%#Container.DataItem%></a></td>
         </tr>
     </AlternatingItemTemplate>
 
     <FooterTemplate></table></FooterTemplate>
 
 </asp:Repeater>
+
+
+<script>
+    function alertInvertido(nome) {
+        let nomeInvertido = nome.split('').reverse().join('');
+        alert(nomeInvertido);
+    }
+</script>

@@ -16,11 +16,11 @@ namespace CalculadoraWeb
 		{
 			get
 			{
-				return (List<string>)ViewState["Nome"];
+				return (List<string>)ViewState["Nomes"];
 			}
 			set
 			{
-				ViewState["Nome"] = value;
+				ViewState["Nomes"] = value;
 			}
 		}
 
@@ -39,6 +39,7 @@ namespace CalculadoraWeb
 			if (!string.IsNullOrEmpty(nome)) 
 			{
 				Nomes.Add(nome);
+				txtNome.Text = "";
 			}
 			
 			rptrNomes.DataSource = Nomes;
