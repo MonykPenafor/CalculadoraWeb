@@ -28,6 +28,9 @@ namespace CalculadoraWeb
 
 						lblMensagem.Text = "Financiamento calculado com sucesso!";
 
+						rptrSimulacao.DataSource = simulacao;
+						rptrSimulacao.DataBind();
+
 					}
 					else
 					{
