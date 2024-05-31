@@ -33,19 +33,13 @@ Quantas parcelas pode ter o financiamento?:<asp:TextBox ID="txtQuantidadeDeParce
 
     <ItemTemplate>
         <tr>
-            <td><%# DataBinder.Eval(Container.DataItem,"Quantidade")%> x <%# DataBinder.Eval(Container.DataItem,"ValorParcela") %></td>
-            <td><big>R$ <%# DataBinder.Eval(Container.DataItem,"ValorTotal")%></big></td>
-            <td><small>R$ <%# DataBinder.Eval(Container.DataItem,"TotalDeJuros") %></small></td>
-            <td><b><%# ((DateTime)DataBinder.Eval(Container.DataItem,"Vencimento")).ToString("dd/MM/yyyy") %></b></td>
+        <design:LinhaSimulacao runat="server" Linha="<%#Container.DataItem %>"/>
         </tr>
     </ItemTemplate>
 
     <AlternatingItemTemplate>
         <tr style="background-color: #ccc">
-            <td><%# DataBinder.Eval(Container.DataItem,"Quantidade")%> x <%# DataBinder.Eval(Container.DataItem,"ValorParcela") %></td>
-            <td><big>R$ <%# DataBinder.Eval(Container.DataItem,"ValorTotal")%></big></td>
-            <td><small>R$ <%# DataBinder.Eval(Container.DataItem,"TotalDeJuros") %></small></td>
-            <td><b><%# ((DateTime)DataBinder.Eval(Container.DataItem,"Vencimento")).ToString("dd/MM/yyyy") %></b></td>
+        <design:LinhaSimulacao runat="server" Linha="<%#Container.DataItem %>"/>
         </tr>
     </AlternatingItemTemplate>
 
