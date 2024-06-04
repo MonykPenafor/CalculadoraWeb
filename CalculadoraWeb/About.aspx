@@ -12,10 +12,10 @@
         <br />
 
         <div>
-            <asp:Button runat="server" Text="Fibonacci" OnClick="btnDisplayFibonacci_click" />
-            <asp:Button runat="server" Text="Juros Composto" OnClick="btnDisplayJurosComposto_click" />
-            <asp:Button runat="server" Text="Simulação de Financiamento" OnClick="btnDisplaySimulacaoFinanciamento_click" />
-            <asp:Button runat="server" Text="Gerador De Nomes" OnClick="btnDisplayGeradorDeNomes_click" />
+            <asp:Button runat="server" ID="btnFibonacci" Text="Fibonacci" OnClick="btnAjustarVisibilidadeDoPainel_click" />
+            <asp:Button runat="server" ID="btnJurosComposto" Text="Juros Composto" OnClick="btnAjustarVisibilidadeDoPainel_click" />
+            <asp:Button runat="server" ID="btnSimulacaoDeFinanciamento" Text="Simulação de Financiamento" OnClick="btnAjustarVisibilidadeDoPainel_click" />
+            <asp:Button runat="server" ID="btnGeradorDeNomes" Text="Gerador De Nomes" OnClick="btnAjustarVisibilidadeDoPainel_click" />
         </div>
         <br />
 

@@ -25,13 +25,14 @@ namespace CalculadoraWeb
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			NumeroEscondido = 
 		}
 
 
 		protected void btnAddNumero_Click(object sender, EventArgs e)
 		{
-			Button clickedButton = (Button)sender;
+			//Button clickedButton = (Button)sender;
+			Button clickedButton = sender as Button;
 
 			string valor = clickedButton.Text;
 
@@ -41,6 +42,9 @@ namespace CalculadoraWeb
 				NumeroAtual = NumeroAtual + valor;
 
 		}
+
+
+
 
 		protected void btnNumero0_Click(object sender, EventArgs e)
 		{
@@ -59,76 +63,10 @@ namespace CalculadoraWeb
 
 		protected void btnVirgula_Click(object sender, EventArgs e)
 		{
-			if (NumeroAtual == "0")
-				NumeroAtual = "0,";
-			else
+			if (!NumeroAtual.Contains(","))
 				NumeroAtual = NumeroAtual + ",";
 
 		}
-
-		//protected void btnNumero1_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "1";
-		//	else
-		//		NumeroAtual = NumeroAtual + "1";
-		//}
-		//protected void btnNumero2_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "2";
-		//	else
-		//		NumeroAtual = NumeroAtual + "2";
-		//}
-		//protected void btnNumero3_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "3";
-		//	else
-		//		NumeroAtual = NumeroAtual + "3";
-		//}
-		//protected void btnNumero4_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "4";
-		//	else
-		//		NumeroAtual = NumeroAtual + "4";
-		//}
-		//protected void btnNumero5_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "5";
-		//	else
-		//		NumeroAtual = NumeroAtual + "5";
-		//}
-		//protected void btnNumero6_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "6";
-		//	else
-		//		NumeroAtual = NumeroAtual + "6";
-		//}
-		//protected void btnNumero7_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "7";
-		//	else
-		//		NumeroAtual = NumeroAtual + "7";
-		//}
-		//protected void btnNumero8_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "8";
-		//	else
-		//		NumeroAtual = NumeroAtual + "8";
-		//}
-		//protected void btnNumero9_Click(object sender, EventArgs e)
-		//{
-		//	if (NumeroAtual == "0")
-		//		NumeroAtual = "9";
-		//	else
-		//		NumeroAtual = NumeroAtual + "9";
-		//}
 
 		protected void btnOperacaoSomar_Click(object sender, EventArgs e)
 		{
@@ -215,7 +153,16 @@ namespace CalculadoraWeb
 			NumeroAtual = "0";
 		}
 
-
-
+		protected void btnSinal_Click(object sender, EventArgs e)
+		{
+			if(NumeroAtual.StartsWith("-"))
+			{
+				NumeroAtual = NumeroAtual.Substring(1);
+			}
+			else
+			{
+				NumeroAtual = "-" + NumeroAtual;
+			}
+		}
 	}
 }

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\calculadoraweb\\calculadoracompleta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\calculadoracompleta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\calculadoracompleta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\calculadoracompleta.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\calculadoracompleta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\calculadoracompleta.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|c:\\users\\monyk penafor\\source\\repos\\calculadoraweb\\calculadoraweb\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{85E507D6-69E4-49CA-A75F-D1A2065018A6}|CalculadoraWeb\\CalculadoraWeb.csproj|solutionrelative:calculadoraweb\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,20 +42,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\Style.css",
+              "RelativeDocumentMoniker": "CalculadoraWeb\\Style.css",
+              "ToolTip": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\Style.css",
+              "RelativeToolTip": "CalculadoraWeb\\Style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-04T13:52:25.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\About.aspx",
+              "RelativeDocumentMoniker": "CalculadoraWeb\\About.aspx",
+              "ToolTip": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\About.aspx",
+              "RelativeToolTip": "CalculadoraWeb\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-04T13:31:33.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\About.aspx.cs",
+              "RelativeDocumentMoniker": "CalculadoraWeb\\About.aspx.cs",
+              "ToolTip": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\About.aspx.cs",
+              "RelativeToolTip": "CalculadoraWeb\\About.aspx.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:32:08.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\Site.Master",
+              "RelativeDocumentMoniker": "CalculadoraWeb\\Site.Master",
+              "ToolTip": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\Site.Master",
+              "RelativeToolTip": "CalculadoraWeb\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-04T12:15:22.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CalculadoraCompleta.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\CalculadoraCompleta.aspx.cs",
               "RelativeDocumentMoniker": "CalculadoraWeb\\CalculadoraCompleta.aspx.cs",
               "ToolTip": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\CalculadoraCompleta.aspx.cs",
               "RelativeToolTip": "CalculadoraWeb\\CalculadoraCompleta.aspx.cs",
-              "ViewState": "AQIAAJEAAAAAAAAAAAAQwLoAAAAVAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T11:53:12.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CalculadoraCompleta.aspx",
               "DocumentMoniker": "C:\\Users\\Monyk Penafor\\source\\repos\\CalculadoraWeb\\CalculadoraWeb\\CalculadoraCompleta.aspx",
               "RelativeDocumentMoniker": "CalculadoraWeb\\CalculadoraCompleta.aspx",

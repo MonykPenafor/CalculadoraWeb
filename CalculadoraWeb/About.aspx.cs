@@ -15,39 +15,15 @@ namespace CalculadoraWeb
 
 		}
 
-		protected void btnDisplayFibonacci_click(object sender, EventArgs e)
-		{
-			pnlFibonacci.Visible = true;
 
-			pnlJurosComposto.Visible = false;
-			pnlSimulacaoDeFinanciamento.Visible = false;
-			pnlGeradorDeNomes.Visible = false;
+		protected void btnAjustarVisibilidadeDoPainel_click(object sender, EventArgs e)
+		{
+			
+			pnlFibonacci.Visible = sender == btnFibonacci;
+			pnlJurosComposto.Visible = sender == btnJurosComposto;
+			pnlSimulacaoDeFinanciamento.Visible = sender == btnSimulacaoDeFinanciamento;
+			pnlGeradorDeNomes.Visible = sender == btnGeradorDeNomes;
 		}
 
-		protected void btnDisplayJurosComposto_click(object sender, EventArgs e)
-		{
-			pnlJurosComposto.Visible = true;
-
-			pnlFibonacci.Visible = false;
-			pnlSimulacaoDeFinanciamento.Visible = false;
-			pnlGeradorDeNomes.Visible = false;
-		}
-
-		protected void btnDisplaySimulacaoFinanciamento_click(object sender, EventArgs e)
-		{
-			pnlSimulacaoDeFinanciamento.Visible = true;
-
-			pnlJurosComposto.Visible = false;
-			pnlFibonacci.Visible = false;
-			pnlGeradorDeNomes.Visible = false;
-		}
-		protected void btnDisplayGeradorDeNomes_click(object sender, EventArgs e)
-		{
-			pnlGeradorDeNomes.Visible = true;
-
-			pnlJurosComposto.Visible = false;
-			pnlFibonacci.Visible = false;
-			pnlSimulacaoDeFinanciamento.Visible = false;
-		}
 	}
 }

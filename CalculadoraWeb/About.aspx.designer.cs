@@ -15,6 +15,42 @@ namespace CalculadoraWeb
 	{
 
 		/// <summary>
+		/// btnFibonacci control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnFibonacci;
+
+		/// <summary>
+		/// btnJurosComposto control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnJurosComposto;
+
+		/// <summary>
+		/// btnSimulacaoDeFinanciamento control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnSimulacaoDeFinanciamento;
+
+		/// <summary>
+		/// btnGeradorDeNomes control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnGeradorDeNomes;
+
+		/// <summary>
 		/// pnlFibonacci control.
 		/// </summary>
 		/// <remarks>
