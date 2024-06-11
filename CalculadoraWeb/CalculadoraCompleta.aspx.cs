@@ -19,30 +19,19 @@ namespace CalculadoraWeb
 
 		public string NumeroAtual
 		{
-			get { return lblNumeroAtual.Text; }
-			set { lblNumeroAtual.Text = value; }
+			get { return NumeroAtualHidden.Value; }
+
+			set
+			{
+				NumeroAtualHidden.Value = value;
+				lblNumeroAtual.Text = value;
+			}
 		}
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			NumeroEscondido = 
-		}
-
-
-		protected void btnAddNumero_Click(object sender, EventArgs e)
-		{
-			//Button clickedButton = (Button)sender;
-			Button clickedButton = sender as Button;
-
-			string valor = clickedButton.Text;
-
-			if (NumeroAtual == "0")
-				NumeroAtual = valor;
-			else
-				NumeroAtual = NumeroAtual + valor;
 
 		}
-
 
 
 
@@ -54,7 +43,7 @@ namespace CalculadoraWeb
 			}
 
 		}
-		
+
 		protected void btnLimpar_Click(object sender, EventArgs e)
 		{
 			NumeroAtual = "0";
@@ -119,7 +108,7 @@ namespace CalculadoraWeb
 					PrimeiroNumero = PrimeiroNumero;
 				else
 					resultado = primeiro / atual;
-					PrimeiroNumero = resultado.ToString();
+				PrimeiroNumero = resultado.ToString();
 
 			}
 			NumeroAtual = "0";
@@ -155,7 +144,7 @@ namespace CalculadoraWeb
 
 		protected void btnSinal_Click(object sender, EventArgs e)
 		{
-			if(NumeroAtual.StartsWith("-"))
+			if (NumeroAtual.StartsWith("-"))
 			{
 				NumeroAtual = NumeroAtual.Substring(1);
 			}

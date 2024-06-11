@@ -33,21 +33,84 @@ namespace CalculadoraWeb
 		protected global::System.Web.UI.WebControls.Label lblNumeroAtual;
 
 		/// <summary>
-		/// NumeroEscondidoHidden control.
+		/// NumeroAtualHidden control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.HtmlControls.HtmlInputHidden NumeroEscondidoHidden;
+		protected global::System.Web.UI.HtmlControls.HtmlInputHidden NumeroAtualHidden;
 
 		/// <summary>
-		/// lblNumeroEscondido control.
+		/// btnLimpar control.
 		/// </summary>
 		/// <remarks>
 		/// Auto-generated field.
 		/// To modify move field declaration from designer file to code-behind file.
 		/// </remarks>
-		protected global::System.Web.UI.WebControls.Label lblNumeroEscondido;
+		protected global::System.Web.UI.WebControls.Button btnLimpar;
+
+		/// <summary>
+		/// btnOperacaoDividir control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnOperacaoDividir;
+
+		/// <summary>
+		/// btnOperacaoMultiplicar control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnOperacaoMultiplicar;
+
+		/// <summary>
+		/// btnOperacaoSubtrair control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnOperacaoSubtrair;
+
+		/// <summary>
+		/// btnOperacaoSomar control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnOperacaoSomar;
+
+		/// <summary>
+		/// btnNumero0 control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnNumero0;
+
+		/// <summary>
+		/// btnVirgula control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnVirgula;
+
+		/// <summary>
+		/// btnIgual control.
+		/// </summary>
+		/// <remarks>
+		/// Auto-generated field.
+		/// To modify move field declaration from designer file to code-behind file.
+		/// </remarks>
+		protected global::System.Web.UI.WebControls.Button btnIgual;
 	}
 }
